@@ -124,3 +124,18 @@ body {
 .page > * + * {
   margin-top: 4rem;
 }
+
+/* || Header and logo styles */
+.header__link {
+  display: inline-block;
+  transition: transform 0.2s ease-in-out 0s;
+}
+
+.header__link:hover {
+  transform: scale(1.1);
+}
+
+.logo {
+  width: 9.1875rem;
+  height: 2.0625rem;
+}
