@@ -104,3 +104,12 @@ select {
   --line-height-3xl: 1.7;
   --line-height-4xl: 1.78;
 }
+
+/* || Global styles */
+body {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-2xl);
+  color: var(--color-coarse-wool);
+  background-color: var(--color-cool-december);
+}
