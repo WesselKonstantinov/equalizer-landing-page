@@ -152,3 +152,81 @@ body {
 .hero__text {
   margin-top: 1.25rem;
 }
+
+/* || Card styles */
+.card {
+  padding: 3rem 2.25rem;
+  background-color: var(--color-fresh-salmon);
+  border-radius: 0.75rem;
+  color: var(--color-cool-december);
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-l);
+}
+
+.card__title {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-2xl);
+  line-height: var(--line-height-s);
+}
+
+.card__text {
+  margin-top: 0.75rem;
+}
+
+.card__subscription-plan {
+  display: flex;
+  margin-top: 2.25rem;
+  gap: 1rem;
+  font-size: var(--font-size-xl);
+  line-height: var(--line-height-xl);
+}
+
+.card__price {
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-5xl);
+  line-height: var(--line-height-3xs);
+}
+
+.card__period {
+  letter-spacing: -0.01em;
+  align-self: center;
+}
+
+.card__cta {
+  margin-top: 2rem;
+  padding: 0.9375rem 0 0.875rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--color-coarse-wool);
+  border-radius: 0.75rem;
+  color: inherit;
+  text-decoration: none;
+  transition: background-color 0.2s ease-out 0s;
+}
+
+.card__cta:hover {
+  background-color: var(--color-pluviophile);
+}
+
+.card__cta--inverted {
+  margin-top: 1rem;
+  background-color: var(--color-cool-december);
+  color: var(--color-coarse-wool);
+}
+
+.card__cta--inverted:hover {
+  background-color: var(--color-warm-apricot);
+}
+
+.card__cta-icon {
+  width: 0.9444em;
+  height: 1.111em;
+  align-self: center;
+}
+
+.card__cta-label {
+  font-weight: var(--font-weight-bold);
+  letter-spacing: -0.01em;
+  line-height: var(--line-height-4xl);
+}
