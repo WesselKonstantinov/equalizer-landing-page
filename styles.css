@@ -113,3 +113,14 @@ body {
   color: var(--color-coarse-wool);
   background-color: var(--color-cool-december);
 }
+
+/* || Page styles */
+.page {
+  max-width: 69.375rem;
+  padding: 2.5rem 1.5rem 5rem;
+  margin-inline: auto;
+}
+
+.page > * + * {
+  margin-top: 4rem;
+}
