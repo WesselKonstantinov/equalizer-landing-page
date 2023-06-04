@@ -114,6 +114,9 @@ body {
   line-height: var(--line-height-2xl);
   color: var(--color-coarse-wool);
   background-color: var(--color-cool-december);
+  background-image: url(assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: left calc(35vw + 60%) top -14rem;
 }
 
 /* || Page styles */
