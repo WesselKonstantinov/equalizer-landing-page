@@ -153,8 +153,30 @@ body {
   margin-top: 1.25rem;
 }
 
+.hero__main {
+  background-color: var(--color-coarse-wool);
+  background-image: url(assets/bg-pattern-2.svg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 17.5rem 26.25rem;
+  border-radius: 0.75rem;
+  margin: 10.375rem -1.5rem 0;
+}
+
+.hero__main::before {
+  content: "";
+  display: block;
+  width: 13.0625rem;
+  height: 26.875rem;
+  margin-inline: auto;
+  transform: translateY(-6rem);
+  background-image: url(assets/illustration-app.png);
+  background-size: cover;
+}
+
 /* || Card styles */
 .card {
+  margin-top: -3rem;
   padding: 3rem 2.25rem;
   background-color: var(--color-fresh-salmon);
   border-radius: 0.75rem;
