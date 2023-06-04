@@ -114,9 +114,9 @@ body {
   line-height: var(--line-height-2xl);
   color: var(--color-coarse-wool);
   background-color: var(--color-cool-december);
-  background-image: url(assets/bg-main-mobile.png);
+  /* background-image: url(assets/bg-main-mobile.png);
   background-repeat: no-repeat;
-  background-position: left calc(35vw + 60%) top -14rem;
+  background-position: left calc(35vw + 60%) top -14rem; */
 }
 
 /* || Page styles */
@@ -124,6 +124,9 @@ body {
   max-width: 69.375rem;
   padding: 2.5rem 1.5rem 5rem;
   margin-inline: auto;
+  background-image: url(assets/bg-main-mobile.png);
+  background-repeat: no-repeat;
+  background-position: left calc(35vw + 60%) top -14rem;
 }
 
 .page > * + * {
