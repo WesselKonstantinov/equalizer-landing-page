@@ -114,9 +114,6 @@ body {
   line-height: var(--line-height-2xl);
   color: var(--color-coarse-wool);
   background-color: var(--color-cool-december);
-  /* background-image: url(assets/bg-main-mobile.png);
-  background-repeat: no-repeat;
-  background-position: left calc(35vw + 60%) top -14rem; */
 }
 
 /* || Page styles */
@@ -295,4 +292,33 @@ body {
 
 .footer__social-link:hover .footer__social-icon-path {
   fill: var(--color-fresh-salmon);
+}
+
+/* || Tablet styles */
+@media (min-width: 48rem) {
+  body {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-l);
+  }
+
+  .page {
+    padding: 3.875rem 2.4375rem 5.3125rem;
+  }
+
+  .hero__intro {
+    max-width: 32.5rem;
+  }
+
+  .hero__title {
+    font-size: var(--font-size-4xl);
+    line-height: var(--line-height-2xs);
+  }
+
+  .hero__text {
+    margin-top: 1.75rem;
+  }
+
+  .hero__main {
+    margin-inline: initial;
+  }
 }
