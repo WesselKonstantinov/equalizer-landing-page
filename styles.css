@@ -272,7 +272,7 @@ body {
   margin-top: 4rem;
   max-width: 6.25rem;
   display: flex;
-  justify-content: space-between;
+  gap: 1.25rem;
 }
 
 .footer__social-link {
@@ -336,10 +336,10 @@ body {
   }
 
   .hero__main {
-    margin-inline: initial;
+    margin: 15.5625rem 0 0;
     position: relative;
     min-height: 37.5rem;
-    background-position-y: -2rem;
+    background-position: left 55% top -2rem;
   }
 
   .hero__main::before {
@@ -356,5 +356,27 @@ body {
     position: absolute;
     right: 3.625rem;
     bottom: -6rem;
+  }
+
+  .footer {
+    margin-top: 11.4375rem;
+    display: grid;
+    grid-template-rows: auto 4.9375rem;
+    grid-template-columns: 22.875rem 1fr;
+    row-gap: 2rem;
+    font-size: var(--font-size-base);
+    line-height: var(--line-height-2xl);
+  }
+
+  .footer__info {
+    margin: 0;
+    grid-column: 1 / 2;
+  }
+
+  .footer__social-links {
+    margin-top: 0;
+    grid-column: 2 / 3;
+    align-self: center;
+    justify-self: end;
   }
 }
