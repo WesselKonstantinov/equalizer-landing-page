@@ -339,5 +339,24 @@ body {
 
   .hero__main {
     margin-inline: initial;
+    position: relative;
+    min-height: 37.5rem;
+    background-position-y: -2rem;
+  }
+
+  .hero__main::before {
+    width: 16.875rem;
+    height: 34.75rem;
+    position: absolute;
+    transform: translate(4rem, -8.625rem);
+  }
+
+  .card {
+    margin-top: 0;
+    max-width: 24.9375rem;
+    padding: 3rem;
+    position: absolute;
+    right: 3.625rem;
+    bottom: -6rem;
   }
 }
