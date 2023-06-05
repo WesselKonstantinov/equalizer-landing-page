@@ -293,7 +293,7 @@ body {
 }
 
 /* || Tablet styles */
-@media (min-width: 48rem) {
+@media (min-width: 42rem) {
   body {
     font-size: var(--font-size-lg);
     line-height: var(--line-height-lg);
