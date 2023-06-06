@@ -386,15 +386,18 @@ body {
     font-size: var(--font-size-xl);
     line-height: var(--line-height-3xl);
     background-image: url("assets/bg-main-desktop.png");
-    background-position: left -16rem top -16rem;
+    background-position: left -17rem top -17rem;
   }
 
   .page {
-    padding-bottom: 5.6875rem;
+    padding: 3.875rem 0 5.6875rem;
     position: initial;
   }
 
   .page::before {
+    width: 19.5rem;
+    height: 29.25rem;
+    top: -2.5rem;
     right: 0;
   }
 
@@ -413,5 +416,34 @@ body {
   .hero__text {
     max-width: 51.5625rem;
     margin-top: 2.5rem;
+  }
+
+  .hero__main::before {
+    width: 19.5rem;
+    height: 40.125rem;
+  }
+
+  .card {
+    max-width: 27.875rem;
+    padding: 3.625rem 3.6875rem 3rem 3.375rem;
+  }
+
+  .card__title {
+    font-size: var(--font-size-3xl);
+    line-height: var(--line-height-m);
+  }
+
+  .card__text {
+    margin-top: 1.375rem;
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-3xl);
+  }
+
+  .card__subscription-plan {
+    margin-top: 2.4375rem;
+  }
+
+  .card__cta:nth-of-type(1) {
+    margin-top: 2.875rem;
   }
 }
