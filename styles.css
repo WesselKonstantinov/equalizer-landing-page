@@ -330,7 +330,7 @@ a:focus-visible {
   }
 
   .hero__intro {
-    width: clamp(32.125rem, 65vw, 52.58rem);
+    width: clamp(32.125rem, 65vw, 53.58rem);
   }
 
   .hero__title {
