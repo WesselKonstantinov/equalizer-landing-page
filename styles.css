@@ -380,3 +380,31 @@ body {
     justify-self: end;
   }
 }
+
+@media (min-width: 90rem) {
+  body {
+    font-size: var(--font-size-xl);
+    line-height: var(--line-height-3xl);
+  }
+
+  .page {
+    padding-bottom: 5.6875rem;
+  }
+
+  .hero {
+    margin-top: 7.9375rem;
+  }
+
+  .hero__intro {
+    max-width: 63.4375rem;
+  }
+
+  .hero__title {
+    font-size: var(--font-size-6xl);
+  }
+
+  .hero__text {
+    max-width: 51.5625rem;
+    margin-top: 2.5rem;
+  }
+}
