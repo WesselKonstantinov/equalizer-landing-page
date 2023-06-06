@@ -121,6 +121,7 @@ body {
 
 /* || Page styles */
 .page {
+  box-sizing: content-box;
   max-width: 69.375rem;
   padding: 2.5rem 1.5rem 5rem;
   margin-inline: auto;
@@ -314,6 +315,7 @@ body {
     position: absolute;
     right: -2.25rem;
     top: -2rem;
+    z-index: -1;
     background-image: url("assets/bg-pattern-1.svg");
     background-size: cover;
   }
@@ -323,7 +325,7 @@ body {
   }
 
   .hero__intro {
-    max-width: 32.125rem;
+    width: clamp(32.125rem, 65vw, 52.58rem);
   }
 
   .hero__title {
@@ -381,7 +383,8 @@ body {
   }
 }
 
-@media (min-width: 90rem) {
+/* || Desktop styles */
+@media (min-width: 68.125rem) {
   body {
     font-size: var(--font-size-xl);
     line-height: var(--line-height-3xl);
@@ -390,7 +393,7 @@ body {
   }
 
   .page {
-    padding: 3.875rem 0 5.6875rem;
+    padding-bottom: 5.6875rem;
     position: initial;
   }
 
@@ -405,16 +408,11 @@ body {
     margin-top: 7.9375rem;
   }
 
-  .hero__intro {
-    max-width: 63.4375rem;
-  }
-
   .hero__title {
     font-size: var(--font-size-6xl);
   }
 
   .hero__text {
-    max-width: 51.5625rem;
     margin-top: 2.5rem;
   }
 
