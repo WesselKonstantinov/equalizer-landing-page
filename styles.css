@@ -119,6 +119,11 @@ body {
   background-position: left calc(35vw + 60%) top -14rem;
 }
 
+a:focus-visible {
+  outline: 0.3rem solid var(--color-coarse-wool);
+  outline-offset: 0.3rem;
+}
+
 /* || Page styles */
 .page {
   box-sizing: content-box;
